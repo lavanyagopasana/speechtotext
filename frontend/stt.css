@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(255, 208, 208);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+.speaker{
+  margin: 0;
+  padding-top: 40px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+button{
+    width: 75px;
+    height: 75px;
+    padding:0;
+    font-size:medium;
+    font-family: cursive;
+    font-style:normal;
+    background-color: rgb(255, 255, 255);
+    border: transparent;
+    border-radius: 50%;
+    border-style:dotted;
+}
+.btn:hover{
+    background-color: rgb(165, 203, 223);
+    text-transform:unset;
+    transform:translateY(5px);
+}
+#output{
+    padding: 70px;
+    font-size:30px;
+    font-family: cursive;
+    font-weight:600;
+    color:rgb(64, 60, 60);
+
+}
